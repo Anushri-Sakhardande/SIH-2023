@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ html , body{
+     margin: 0;
+     padding: 0;
+     background-color: #ffffff;
+ }
+
+ .main-header{
+    margin: 0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px 10%;
+ }
+ 
+ .banner{
+    margin:0;
+    padding:0.5em;
+    font-size: 25px;
+    cursor:pointer;
+ }
+
+ .nav {
+    margin:0;
+    list-style-type: none;
+ }
+
+ .nav li{
+    display: inline-block;
+    padding: 0 20px;
+ }
+
+ .nav a{
+   text-decoration: none;
+ }
+
+ .nav li:hover{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+
+ .button{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    margin:0.5em;
+    cursor:pointer;
+    border: 0;
+    border-radius:10px;
+ }
+
+ .button-header-container{
+    margin-left:auto;
+ }
+
+ .button-header{
+    background-color: rgba(252, 116, 73, 1);
+ }
+
+ .button-header:hover{
+    background-color: rgba(252, 116, 73, 0.8);
+ }
+ 
+ .container {
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 1.5em;
+}
+
+.subjects-header{
+    padding:20px;
+    font-size: 20px;
+}
+
+ .subjects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:20px;
+ }
+
+ .button-subject{
+    width: 300px;
+    height:200px;
+    background-color:rgba(252, 116, 73, 1);
+ }
+
+ .button-subject:hover{
+    background-color:rgba(252, 116, 73, 0.8);
+ }
+
+ .button-subject a, a:visited, a:hover, a:active {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ .subject-content{
+   padding: 20px;
+ }
+
+ .subject-content-heading{
+   margin:10px 0px;
+ }
+
+ .subject-content-card{
+   padding:30px;
+   margin:20px 0px;
+   background-color: white;
+   border-radius: 10px;
+ }
+
+ .subject-content-sub{
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction: column;
+ }
+
+ .subject-content-sub a{
+    padding:10px;
+    color: rgb(98, 97, 97);
+    font-size: 16px;
+ }
+
+ .progress{
+   display:flex;
+   padding: 30px;
+ }
+ .progress-sub{
+   justify-content: space-evenly;
+ }
+
+ .communities{
+   justify-content: space-around;
+ }
+
+ .button-community{
+   width: 150px;
+    height:100px;
+    background-color:rgba(252, 116, 73, 1);
+ }
+
+.location{
+   padding: 30px;
+   display:flex;
+}
+
+.location-details{
+   padding: 15px;
+}
+
+.map{
+   border-radius: 10px;
+}
+
+.image{
+   text-align: center;
+}
+ @media (min-width:800px){
+   .subject-content-sub {
+      max-height: 150px;}
+   
+ }
